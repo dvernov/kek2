@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: kek2_service
+  datasource:
+    url: jdbc:postgresql://${DB_URL}:${DB_PORT}}/
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  profiles:
+    active: dev

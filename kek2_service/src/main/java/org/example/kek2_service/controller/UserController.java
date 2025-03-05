@@ -12,4 +12,6 @@ public class UserController {
 
     private final String string = "3213333";
 
+    private String string2;
+
 }

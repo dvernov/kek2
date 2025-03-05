@@ -8,6 +8,7 @@ class Kek2MainApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("asd");
     }
 
 }
